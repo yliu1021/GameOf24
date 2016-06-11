@@ -12,8 +12,6 @@
 		566515781D0C926300CC0F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566515761D0C926300CC0F5B /* Main.storyboard */; };
 		5665157A1D0C926300CC0F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566515791D0C926300CC0F5B /* Assets.xcassets */; };
 		5665157D1D0C926300CC0F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5665157B1D0C926300CC0F5B /* LaunchScreen.storyboard */; };
-		566515881D0C926400CC0F5B /* GameOf24Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515871D0C926400CC0F5B /* GameOf24Tests.swift */; };
-		566515931D0C926400CC0F5B /* GameOf24UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515921D0C926400CC0F5B /* GameOf24UITests.swift */; };
 		566515AE1D0C92F200CC0F5B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515A51D0C92F200CC0F5B /* Board.swift */; };
 		566515AF1D0C92F200CC0F5B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515A61D0C92F200CC0F5B /* Location.swift */; };
 		566515B01D0C92F200CC0F5B /* Occupant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515A71D0C92F200CC0F5B /* Occupant.swift */; };
@@ -21,6 +19,19 @@
 		566515B21D0C92F200CC0F5B /* Operand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AA1D0C92F200CC0F5B /* Operand.swift */; };
 		566515B31D0C92F200CC0F5B /* AddOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AC1D0C92F200CC0F5B /* AddOperation.swift */; };
 		566515B41D0C92F200CC0F5B /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AD1D0C92F200CC0F5B /* Operation.swift */; };
+		566515B71D0C951500CC0F5B /* Operand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AA1D0C92F200CC0F5B /* Operand.swift */; };
+		566515B91D0C961000CC0F5B /* OperandTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515B81D0C961000CC0F5B /* OperandTest.swift */; };
+		566515BB1D0CA32C00CC0F5B /* SubtractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BA1D0CA32C00CC0F5B /* SubtractOperation.swift */; };
+		566515BD1D0CA39300CC0F5B /* MultiplyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BC1D0CA39300CC0F5B /* MultiplyOperation.swift */; };
+		566515BF1D0CA57D00CC0F5B /* DivideOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BE1D0CA57D00CC0F5B /* DivideOperation.swift */; };
+		566515C11D0CA68C00CC0F5B /* OperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515C01D0CA68C00CC0F5B /* OperationTest.swift */; };
+		566515C21D0CA6B700CC0F5B /* AddOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AC1D0C92F200CC0F5B /* AddOperation.swift */; };
+		566515C31D0CA6BA00CC0F5B /* SubtractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BA1D0CA32C00CC0F5B /* SubtractOperation.swift */; };
+		566515C41D0CA6BC00CC0F5B /* MultiplyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BC1D0CA39300CC0F5B /* MultiplyOperation.swift */; };
+		566515C51D0CA6BF00CC0F5B /* DivideOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BE1D0CA57D00CC0F5B /* DivideOperation.swift */; };
+		566515C61D0CA6C100CC0F5B /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AD1D0C92F200CC0F5B /* Operation.swift */; };
+		566515C81D0CB6A600CC0F5B /* ExpressionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515C71D0CB6A600CC0F5B /* ExpressionTest.swift */; };
+		566515C91D0CB6AA00CC0F5B /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515A91D0C92F200CC0F5B /* Expression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +60,8 @@
 		5665157C1D0C926300CC0F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5665157E1D0C926300CC0F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		566515831D0C926400CC0F5B /* GameOf24Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOf24Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		566515871D0C926400CC0F5B /* GameOf24Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOf24Tests.swift; sourceTree = "<group>"; };
 		566515891D0C926400CC0F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5665158E1D0C926400CC0F5B /* GameOf24UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOf24UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		566515921D0C926400CC0F5B /* GameOf24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOf24UITests.swift; sourceTree = "<group>"; };
 		566515941D0C926400CC0F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		566515A51D0C92F200CC0F5B /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		566515A61D0C92F200CC0F5B /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -61,6 +70,12 @@
 		566515AA1D0C92F200CC0F5B /* Operand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operand.swift; sourceTree = "<group>"; };
 		566515AC1D0C92F200CC0F5B /* AddOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperation.swift; sourceTree = "<group>"; };
 		566515AD1D0C92F200CC0F5B /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		566515B81D0C961000CC0F5B /* OperandTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperandTest.swift; sourceTree = "<group>"; };
+		566515BA1D0CA32C00CC0F5B /* SubtractOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtractOperation.swift; sourceTree = "<group>"; };
+		566515BC1D0CA39300CC0F5B /* MultiplyOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyOperation.swift; sourceTree = "<group>"; };
+		566515BE1D0CA57D00CC0F5B /* DivideOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivideOperation.swift; sourceTree = "<group>"; };
+		566515C01D0CA68C00CC0F5B /* OperationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationTest.swift; sourceTree = "<group>"; };
+		566515C71D0CB6A600CC0F5B /* ExpressionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +140,9 @@
 		566515861D0C926400CC0F5B /* GameOf24Tests */ = {
 			isa = PBXGroup;
 			children = (
-				566515871D0C926400CC0F5B /* GameOf24Tests.swift */,
+				566515B81D0C961000CC0F5B /* OperandTest.swift */,
+				566515C01D0CA68C00CC0F5B /* OperationTest.swift */,
+				566515C71D0CB6A600CC0F5B /* ExpressionTest.swift */,
 				566515891D0C926400CC0F5B /* Info.plist */,
 			);
 			path = GameOf24Tests;
@@ -134,7 +151,6 @@
 		566515911D0C926400CC0F5B /* GameOf24UITests */ = {
 			isa = PBXGroup;
 			children = (
-				566515921D0C926400CC0F5B /* GameOf24UITests.swift */,
 				566515941D0C926400CC0F5B /* Info.plist */,
 			);
 			path = GameOf24UITests;
@@ -173,6 +189,9 @@
 			isa = PBXGroup;
 			children = (
 				566515AC1D0C92F200CC0F5B /* AddOperation.swift */,
+				566515BA1D0CA32C00CC0F5B /* SubtractOperation.swift */,
+				566515BC1D0CA39300CC0F5B /* MultiplyOperation.swift */,
+				566515BE1D0CA57D00CC0F5B /* DivideOperation.swift */,
 				566515AD1D0C92F200CC0F5B /* Operation.swift */,
 			);
 			path = Operation;
@@ -309,14 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566515BD1D0CA39300CC0F5B /* MultiplyOperation.swift in Sources */,
 				566515751D0C926300CC0F5B /* ViewController.swift in Sources */,
 				566515731D0C926300CC0F5B /* AppDelegate.swift in Sources */,
 				566515AF1D0C92F200CC0F5B /* Location.swift in Sources */,
+				566515BB1D0CA32C00CC0F5B /* SubtractOperation.swift in Sources */,
 				566515AE1D0C92F200CC0F5B /* Board.swift in Sources */,
 				566515B01D0C92F200CC0F5B /* Occupant.swift in Sources */,
 				566515B41D0C92F200CC0F5B /* Operation.swift in Sources */,
 				566515B21D0C92F200CC0F5B /* Operand.swift in Sources */,
 				566515B11D0C92F200CC0F5B /* Expression.swift in Sources */,
+				566515BF1D0CA57D00CC0F5B /* DivideOperation.swift in Sources */,
 				566515B31D0C92F200CC0F5B /* AddOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566515881D0C926400CC0F5B /* GameOf24Tests.swift in Sources */,
+				566515B71D0C951500CC0F5B /* Operand.swift in Sources */,
+				566515B91D0C961000CC0F5B /* OperandTest.swift in Sources */,
+				566515C11D0CA68C00CC0F5B /* OperationTest.swift in Sources */,
+				566515C61D0CA6C100CC0F5B /* Operation.swift in Sources */,
+				566515C51D0CA6BF00CC0F5B /* DivideOperation.swift in Sources */,
+				566515C81D0CB6A600CC0F5B /* ExpressionTest.swift in Sources */,
+				566515C41D0CA6BC00CC0F5B /* MultiplyOperation.swift in Sources */,
+				566515C31D0CA6BA00CC0F5B /* SubtractOperation.swift in Sources */,
+				566515C21D0CA6B700CC0F5B /* AddOperation.swift in Sources */,
+				566515C91D0CB6AA00CC0F5B /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566515931D0C926400CC0F5B /* GameOf24UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

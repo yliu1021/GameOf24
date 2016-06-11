@@ -12,6 +12,6 @@ internal protocol Operation {
     
     var precedence:Int {get set}
     
-    func apply(op1:Operand, op2:Operand) -> Operand
+    func apply(op1:Operand, with op2:Operand) throws -> Operand
     
 }
