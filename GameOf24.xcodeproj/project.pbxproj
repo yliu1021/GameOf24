@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51CED0531C14E3BF2B85BA05 /* Powerup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CED53A6DA4C146C59B8062 /* Powerup.swift */; };
+		51CED3755F7E0E38FD0306E6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CEDFA9C3A811EE34A609FC /* Player.swift */; };
 		566515731D0C926300CC0F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515721D0C926300CC0F5B /* AppDelegate.swift */; };
 		566515751D0C926300CC0F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515741D0C926300CC0F5B /* ViewController.swift */; };
 		566515781D0C926300CC0F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566515761D0C926300CC0F5B /* Main.storyboard */; };
@@ -17,19 +19,19 @@
 		566515B01D0C92F200CC0F5B /* Occupant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515A71D0C92F200CC0F5B /* Occupant.swift */; };
 		566515B11D0C92F200CC0F5B /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515A91D0C92F200CC0F5B /* Expression.swift */; };
 		566515B21D0C92F200CC0F5B /* Operand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AA1D0C92F200CC0F5B /* Operand.swift */; };
-		566515B31D0C92F200CC0F5B /* AddOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AC1D0C92F200CC0F5B /* AddOperation.swift */; };
-		566515B41D0C92F200CC0F5B /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AD1D0C92F200CC0F5B /* Operation.swift */; };
+		566515B31D0C92F200CC0F5B /* AddOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AC1D0C92F200CC0F5B /* AddOperator.swift */; };
+		566515B41D0C92F200CC0F5B /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AD1D0C92F200CC0F5B /* Operator.swift */; };
 		566515B71D0C951500CC0F5B /* Operand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AA1D0C92F200CC0F5B /* Operand.swift */; };
 		566515B91D0C961000CC0F5B /* OperandTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515B81D0C961000CC0F5B /* OperandTest.swift */; };
-		566515BB1D0CA32C00CC0F5B /* SubtractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BA1D0CA32C00CC0F5B /* SubtractOperation.swift */; };
-		566515BD1D0CA39300CC0F5B /* MultiplyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BC1D0CA39300CC0F5B /* MultiplyOperation.swift */; };
-		566515BF1D0CA57D00CC0F5B /* DivideOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BE1D0CA57D00CC0F5B /* DivideOperation.swift */; };
+		566515BB1D0CA32C00CC0F5B /* SubtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BA1D0CA32C00CC0F5B /* SubtractOperator.swift */; };
+		566515BD1D0CA39300CC0F5B /* MultiplyOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BC1D0CA39300CC0F5B /* MultiplyOperator.swift */; };
+		566515BF1D0CA57D00CC0F5B /* DivideOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BE1D0CA57D00CC0F5B /* DivideOperator.swift */; };
 		566515C11D0CA68C00CC0F5B /* OperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515C01D0CA68C00CC0F5B /* OperationTest.swift */; };
-		566515C21D0CA6B700CC0F5B /* AddOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AC1D0C92F200CC0F5B /* AddOperation.swift */; };
-		566515C31D0CA6BA00CC0F5B /* SubtractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BA1D0CA32C00CC0F5B /* SubtractOperation.swift */; };
-		566515C41D0CA6BC00CC0F5B /* MultiplyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BC1D0CA39300CC0F5B /* MultiplyOperation.swift */; };
-		566515C51D0CA6BF00CC0F5B /* DivideOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BE1D0CA57D00CC0F5B /* DivideOperation.swift */; };
-		566515C61D0CA6C100CC0F5B /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AD1D0C92F200CC0F5B /* Operation.swift */; };
+		566515C21D0CA6B700CC0F5B /* AddOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AC1D0C92F200CC0F5B /* AddOperator.swift */; };
+		566515C31D0CA6BA00CC0F5B /* SubtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BA1D0CA32C00CC0F5B /* SubtractOperator.swift */; };
+		566515C41D0CA6BC00CC0F5B /* MultiplyOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BC1D0CA39300CC0F5B /* MultiplyOperator.swift */; };
+		566515C51D0CA6BF00CC0F5B /* DivideOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515BE1D0CA57D00CC0F5B /* DivideOperator.swift */; };
+		566515C61D0CA6C100CC0F5B /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515AD1D0C92F200CC0F5B /* Operator.swift */; };
 		566515C81D0CB6A600CC0F5B /* ExpressionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515C71D0CB6A600CC0F5B /* ExpressionTest.swift */; };
 		566515C91D0CB6AA00CC0F5B /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566515A91D0C92F200CC0F5B /* Expression.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51CED53A6DA4C146C59B8062 /* Powerup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Powerup.swift; sourceTree = "<group>"; };
+		51CEDFA9C3A811EE34A609FC /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		5665156F1D0C926300CC0F5B /* GameOf24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOf24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		566515721D0C926300CC0F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		566515741D0C926300CC0F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,12 +72,12 @@
 		566515A71D0C92F200CC0F5B /* Occupant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Occupant.swift; sourceTree = "<group>"; };
 		566515A91D0C92F200CC0F5B /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
 		566515AA1D0C92F200CC0F5B /* Operand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operand.swift; sourceTree = "<group>"; };
-		566515AC1D0C92F200CC0F5B /* AddOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperation.swift; sourceTree = "<group>"; };
-		566515AD1D0C92F200CC0F5B /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		566515AC1D0C92F200CC0F5B /* AddOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOperator.swift; sourceTree = "<group>"; };
+		566515AD1D0C92F200CC0F5B /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		566515B81D0C961000CC0F5B /* OperandTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperandTest.swift; sourceTree = "<group>"; };
-		566515BA1D0CA32C00CC0F5B /* SubtractOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtractOperation.swift; sourceTree = "<group>"; };
-		566515BC1D0CA39300CC0F5B /* MultiplyOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyOperation.swift; sourceTree = "<group>"; };
-		566515BE1D0CA57D00CC0F5B /* DivideOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivideOperation.swift; sourceTree = "<group>"; };
+		566515BA1D0CA32C00CC0F5B /* SubtractOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtractOperator.swift; sourceTree = "<group>"; };
+		566515BC1D0CA39300CC0F5B /* MultiplyOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyOperator.swift; sourceTree = "<group>"; };
+		566515BE1D0CA57D00CC0F5B /* DivideOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivideOperator.swift; sourceTree = "<group>"; };
 		566515C01D0CA68C00CC0F5B /* OperationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationTest.swift; sourceTree = "<group>"; };
 		566515C71D0CB6A600CC0F5B /* ExpressionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,20 +163,22 @@
 		566515A31D0C92F200CC0F5B /* GameLogic */ = {
 			isa = PBXGroup;
 			children = (
-				566515A41D0C92F200CC0F5B /* Board */,
+				566515A41D0C92F200CC0F5B /* Game */,
 				566515A81D0C92F200CC0F5B /* Expression */,
 			);
 			path = GameLogic;
 			sourceTree = "<group>";
 		};
-		566515A41D0C92F200CC0F5B /* Board */ = {
+		566515A41D0C92F200CC0F5B /* Game */ = {
 			isa = PBXGroup;
 			children = (
 				566515A51D0C92F200CC0F5B /* Board.swift */,
 				566515A61D0C92F200CC0F5B /* Location.swift */,
 				566515A71D0C92F200CC0F5B /* Occupant.swift */,
+				51CEDFA9C3A811EE34A609FC /* Player.swift */,
+				51CED53A6DA4C146C59B8062 /* Powerup.swift */,
 			);
-			path = Board;
+			path = Game;
 			sourceTree = "<group>";
 		};
 		566515A81D0C92F200CC0F5B /* Expression */ = {
@@ -188,11 +194,11 @@
 		566515AB1D0C92F200CC0F5B /* Operation */ = {
 			isa = PBXGroup;
 			children = (
-				566515AC1D0C92F200CC0F5B /* AddOperation.swift */,
-				566515BA1D0CA32C00CC0F5B /* SubtractOperation.swift */,
-				566515BC1D0CA39300CC0F5B /* MultiplyOperation.swift */,
-				566515BE1D0CA57D00CC0F5B /* DivideOperation.swift */,
-				566515AD1D0C92F200CC0F5B /* Operation.swift */,
+				566515AC1D0C92F200CC0F5B /* AddOperator.swift */,
+				566515BA1D0CA32C00CC0F5B /* SubtractOperator.swift */,
+				566515BC1D0CA39300CC0F5B /* MultiplyOperator.swift */,
+				566515BE1D0CA57D00CC0F5B /* DivideOperator.swift */,
+				566515AD1D0C92F200CC0F5B /* Operator.swift */,
 			);
 			path = Operation;
 			sourceTree = "<group>";
@@ -328,18 +334,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566515BD1D0CA39300CC0F5B /* MultiplyOperation.swift in Sources */,
+				566515BD1D0CA39300CC0F5B /* MultiplyOperator.swift in Sources */,
 				566515751D0C926300CC0F5B /* ViewController.swift in Sources */,
 				566515731D0C926300CC0F5B /* AppDelegate.swift in Sources */,
 				566515AF1D0C92F200CC0F5B /* Location.swift in Sources */,
-				566515BB1D0CA32C00CC0F5B /* SubtractOperation.swift in Sources */,
+				566515BB1D0CA32C00CC0F5B /* SubtractOperator.swift in Sources */,
 				566515AE1D0C92F200CC0F5B /* Board.swift in Sources */,
 				566515B01D0C92F200CC0F5B /* Occupant.swift in Sources */,
-				566515B41D0C92F200CC0F5B /* Operation.swift in Sources */,
+				566515B41D0C92F200CC0F5B /* Operator.swift in Sources */,
 				566515B21D0C92F200CC0F5B /* Operand.swift in Sources */,
 				566515B11D0C92F200CC0F5B /* Expression.swift in Sources */,
-				566515BF1D0CA57D00CC0F5B /* DivideOperation.swift in Sources */,
-				566515B31D0C92F200CC0F5B /* AddOperation.swift in Sources */,
+				566515BF1D0CA57D00CC0F5B /* DivideOperator.swift in Sources */,
+				566515B31D0C92F200CC0F5B /* AddOperator.swift in Sources */,
+				51CED3755F7E0E38FD0306E6 /* Player.swift in Sources */,
+				51CED0531C14E3BF2B85BA05 /* Powerup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,12 +358,12 @@
 				566515B71D0C951500CC0F5B /* Operand.swift in Sources */,
 				566515B91D0C961000CC0F5B /* OperandTest.swift in Sources */,
 				566515C11D0CA68C00CC0F5B /* OperationTest.swift in Sources */,
-				566515C61D0CA6C100CC0F5B /* Operation.swift in Sources */,
-				566515C51D0CA6BF00CC0F5B /* DivideOperation.swift in Sources */,
+				566515C61D0CA6C100CC0F5B /* Operator.swift in Sources */,
+				566515C51D0CA6BF00CC0F5B /* DivideOperator.swift in Sources */,
 				566515C81D0CB6A600CC0F5B /* ExpressionTest.swift in Sources */,
-				566515C41D0CA6BC00CC0F5B /* MultiplyOperation.swift in Sources */,
-				566515C31D0CA6BA00CC0F5B /* SubtractOperation.swift in Sources */,
-				566515C21D0CA6B700CC0F5B /* AddOperation.swift in Sources */,
+				566515C41D0CA6BC00CC0F5B /* MultiplyOperator.swift in Sources */,
+				566515C31D0CA6BA00CC0F5B /* SubtractOperator.swift in Sources */,
+				566515C21D0CA6B700CC0F5B /* AddOperator.swift in Sources */,
 				566515C91D0CB6AA00CC0F5B /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

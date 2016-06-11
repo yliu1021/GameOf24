@@ -17,16 +17,16 @@ class ExpressionTest: XCTestCase {
         
         let expression = Expression()
         try! expression.addToken(Token.OperandType(op1))
-        try! expression.addToken(Token.OperationType(DivideOperation()))
+        try! expression.addToken(Token.OperationType(DivideOperator()))
         try! expression.addToken(Token.OperandType(op2))
-        try! expression.addToken(Token.OperationType(AddOperation()))
+        try! expression.addToken(Token.OperationType(AddOperator()))
         try! expression.addToken(Token.OperandType(op3))
         
         XCTAssertEqual(try! expression.evaluate(), try! op1 / op2 + op3)
         expression.clear()
 
         try! expression.addToken(Token.OperandType(op1))
-        try! expression.addToken(Token.OperationType(AddOperation()))
+        try! expression.addToken(Token.OperationType(AddOperator()))
         try! expression.addToken(Token.OperandType(op2))
         try! expression.addToken(Token.OperationType(MultiplyOperator()))
         try! expression.addToken(Token.OperandType(op3))

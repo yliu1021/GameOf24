@@ -1,5 +1,5 @@
 //
-//  DivideOperation.swift
+//  DivideOperator.swift
 //  GameOf24
 //
 //  Created by Yuhan Liu on 6/11/16.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal class DivideOperation: Operation {
+internal class DivideOperator: Operator {
     var precedence: Int = 10
     
     func apply(op1: Operand, with op2: Operand) throws -> Operand {
@@ -25,7 +25,7 @@ internal class DivideOperation: Operation {
 }
 
 func / (op1:Operand, op2:Operand) throws -> Operand {
-    let op = DivideOperation()
+    let op = DivideOperator()
     return try op.apply(op1, with: op2)
 }
 

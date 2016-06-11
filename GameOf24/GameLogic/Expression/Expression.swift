@@ -68,8 +68,8 @@ internal class Expression {
         guard case let .OperationType(operation) = token else {
             throw ExpressionError.IncorrectTokenOrder
         }
-        
-        var operationTuple:(precedence:Int, op:Operation) = (operation.precedence, operation)
+
+        var operationTuple: (precedence:Int, op:Operator) = (operation.precedence, operation)
         var index = start + 1
         for i in (start+1).stride(to: end, by: 2) {
             let value = tokens[i]
@@ -95,7 +95,7 @@ internal class Expression {
 
 enum Token {
     case OperandType(Operand)
-    case OperationType(Operation)
+    case OperationType(Operator)
 }
 
 enum ExpressionError: ErrorType {

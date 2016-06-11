@@ -1,6 +1,6 @@
 //
-//  MultiplyOperation.swift
-//  GameOf24
+//  AddOperator.swift
+//  24
 //
 //  Created by Yuhan Liu on 6/11/16.
 //  Copyright © 2016 Yuhan Liu. All rights reserved.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-internal class MultiplyOperator: Operation {
-    var precedence: Int = 10
+internal class AddOperator: Operator {
+    var precedence: Int = 5
     
     func apply(op1: Operand, with op2: Operand) -> Operand {
-        let n = op1.numerator * op2.numerator
+        let n = op1.numerator * op2.denominator + op2.numerator * op1.denominator
         let d = op1.denominator * op2.denominator
         
         let result = try! Operand(numerator: n, denominator: d)
@@ -20,11 +20,11 @@ internal class MultiplyOperator: Operation {
     }
 }
 
-func * (op1:Operand, op2:Operand) -> Operand {
-    let op = MultiplyOperator()
+func + (op1:Operand, op2:Operand) -> Operand {
+    let op = AddOperator()
     return op.apply(op1, with: op2)
 }
 
-func *= (inout op1:Operand, op2:Operand) {
-    op1 = op1 * op2
+func += (inout op1:Operand, op2:Operand) {
+    op1 = op1 + op2
 }

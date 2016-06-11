@@ -1,5 +1,5 @@
 //
-//  SubtractOperation.swift
+//  MultiplyOperator.swift
 //  GameOf24
 //
 //  Created by Yuhan Liu on 6/11/16.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-internal class SubtractOperation: Operation {
-    var precedence: Int = 5
+internal class MultiplyOperator: Operator {
+    var precedence: Int = 10
     
     func apply(op1: Operand, with op2: Operand) -> Operand {
-        let n = op1.numerator * op2.denominator - op2.numerator * op1.denominator
+        let n = op1.numerator * op2.numerator
         let d = op1.denominator * op2.denominator
         
         let result = try! Operand(numerator: n, denominator: d)
@@ -20,11 +20,11 @@ internal class SubtractOperation: Operation {
     }
 }
 
-func - (op1:Operand, op2:Operand) -> Operand {
-    let op = SubtractOperation()
+func * (op1:Operand, op2:Operand) -> Operand {
+    let op = MultiplyOperator()
     return op.apply(op1, with: op2)
 }
 
-func -= (inout op1:Operand, op2:Operand) {
-    op1 = op1 - op2
+func *= (inout op1:Operand, op2:Operand) {
+    op1 = op1 * op2
 }

@@ -1,5 +1,5 @@
 //
-//  Operation.swift
+//  Operator.swift
 //  24
 //
 //  Created by Yuhan Liu on 6/11/16.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal protocol Operation {
+internal protocol Operator {
     
     var precedence:Int {get set}
     

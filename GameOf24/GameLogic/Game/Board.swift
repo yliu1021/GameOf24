@@ -9,5 +9,9 @@
 import Foundation
 
 class Board {
-    
+    var players: [Player]
+
+    init() {
+        players = [Player(), Player()]
+    }
 }

@@ -6,14 +6,16 @@
       <sourceFolder url="file://$MODULE_DIR$/GameOf24/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operand.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Expression.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/AddOperation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/DivideOperation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/MultiplyOperation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/SubtractOperation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/Operation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Board/Board.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Board/Occupant.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Board/Location.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/AddOperator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/DivideOperator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/MultiplyOperator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/SubtractOperator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Expression/Operation/Operator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Game/Board.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Game/Player.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Game/Powerup.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Game/Occupant.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameOf24/GameLogic/Game/Location.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameOf24/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameOf24/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameOf24/Assets.xcassets" isTestSource="false" />
@@ -24,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GameOf24Tests/OperandTest.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameOf24Tests/OperationTest.swift" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/GameOf24-cmtrgdoyxsnrtjgbjmbcmbdzedft/Build/Intermediates/GameOf24.build/Debug-iphoneos/GameOf24.build/DerivedSources" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
