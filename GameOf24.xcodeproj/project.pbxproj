@@ -80,6 +80,7 @@
 		566515BE1D0CA57D00CC0F5B /* DivideOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivideOperator.swift; sourceTree = "<group>"; };
 		566515C01D0CA68C00CC0F5B /* OperationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationTest.swift; sourceTree = "<group>"; };
 		566515C71D0CB6A600CC0F5B /* ExpressionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionTest.swift; sourceTree = "<group>"; };
+		566DACDE1D0DD29F00337DA1 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 		566515661D0C926300CC0F5B = {
 			isa = PBXGroup;
 			children = (
+				566DACDE1D0DD29F00337DA1 /* Playground.playground */,
 				566515711D0C926300CC0F5B /* GameOf24 */,
 				566515861D0C926400CC0F5B /* GameOf24Tests */,
 				566515911D0C926400CC0F5B /* GameOf24UITests */,
@@ -582,6 +584,7 @@
 				566515991D0C926400CC0F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5665159A1D0C926400CC0F5B /* Build configuration list for PBXNativeTarget "GameOf24Tests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +593,7 @@
 				5665159C1D0C926400CC0F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5665159D1D0C926400CC0F5B /* Build configuration list for PBXNativeTarget "GameOf24UITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +602,7 @@
 				5665159F1D0C926400CC0F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

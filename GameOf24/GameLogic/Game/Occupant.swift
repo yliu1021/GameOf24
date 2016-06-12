@@ -8,18 +8,20 @@
 
 import Foundation
 
-class Occupant {
+struct Occupant {
     
     var type:OccupantType
-    
-    init(type:OccupantType) {
+    var location: Location
+
+    init(type: OccupantType, location: Location) {
         self.type = type;
+        self.location = location
     }
     
 }
 
 enum OccupantType {
-    case Operand
-    case Operation
-    case Blocker
+    case OperandType(Operand?)
+    case OperationType(Operator?)
+    case BlockerType
 }
